@@ -8,3 +8,14 @@
 {
 	width: 100%;
 }
+
+.black-background
+{
+	background-color: black;
+}
+
+#beerGraphic:hover #lGrain, #beerGraphic:hover #rGrain
+{
+	fill: red;
+
+}
