@@ -1,21 +1,193 @@
-.img-wrapper 
-{
-	display: inline-block;
-	width: 35%;
+
+body {
+	width:100%;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
 }
 
-.img-wrapper > img 
-{
+p {
+	
+}
+
+a {
+	text-decoration: none;
+}
+a:visited {
+	color:;
+}
+
+.hidden {
+	display:none;
+}
+
+.background {
 	width: 100%;
+	height:100%;
+	background-image: url("../images/background.svg");
+	position: absolute;
+	background-position: bottom 0 right 0; 
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
-.black-background
-{
-	background-color: black;
+.wrapper {
+	width: 92%;
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 40px;
 }
 
-#beerGraphic:hover #lGrain, #beerGraphic:hover #rGrain
-{
-	fill: red;
+
+.mainHeader {
+	height: 200px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#logo {
+	align-items: center;
+	height: 200px;
+	width: 30%;
+	background-color: rgba(34, 234, 224, 0.8);
+}
+
+#logo img {
+	width: 100%
+}
+
+.title {
+	align-items: center;
+	height: 80px;
+	width: 60%;
+	background-color: rgba(34, 234, 224, 0.8);
+	line-height: 80px;
+}
+
+.divider {
+	width: 100%;
+	height: 34px;
+	background-color: #E60EFE; 
+	opacity: 80%;
+}
+
+.gallery {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0 0 -20px -20px;  
+}
+
+.icon {
+	background-color: rgba(34, 234, 224, 0.8);
+	margin: 0 0 20px 20px; 
+	width: 160px;
+	height: 160px;
+	text-align: center;
+}
+
+.colorPicker{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.color{
+	height: 120px;
+	width: 15%;
+	text-align: center;
+	align-items: center;
+	line-height: 120px;
+	font-size: 48px;
+	font-weight: bold;
+}
+
+
+.pink {
+	color: #FF71CE;
+}
+
+.pink:hover {
+	background-color: #FF71CE ;
+	transition: .5s;
+}
+
+
+.blue{
+	color: #22EAE0;
+}
+
+.blue:hover {
+	background-color: #22EAE0 ;
+	transition: .5s;
+}
+
+
+.black{
+	color: #211830;
+}
+
+.black:hover {
+	background-color: #211830 ;
+	transition: .5s;
+}
+
+
+.yellow{
+	color: #FFFB96;
+}
+
+.yellow:hover {
+	background-color: #FFFB96 ;
+	transition: .5s;
+}
+
+
+.green{
+	color: #05FFA1;
+}
+
+.green:hover {
+	background-color: #05FFA1 ;
+	transition: .5s;
+}
+
+
+.purple{
+	color: #9D0FFD;
 
 }
+
+.purple:hover {
+	background-color: #9D0FFD ;
+	transition: .5s;
+}
+
+
+.mainFooter {
+	margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
