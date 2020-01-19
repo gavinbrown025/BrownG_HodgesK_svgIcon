@@ -1,35 +1,48 @@
 // this is a self invoking anonymous function
 // also called an IIFE
 
+//console.log('hello from javaScript!');
 
-(() => {
-  console.log('hello from javaScript!');
+// find elements in the Document
+// querySelectorAll is for multiple objects
+// querySelector is for a single object
 
-  // find elements in the Document
-let toggleButton = document.querySelector(".switch-text"),
-  //svgImg = document.querySelector("#badge1"),
-  allSVGs = document.querySelectorAll(".svg"); // this is a variable
+// function changeColor() {
+	//allIcons.textContent = "What is up? I am Script"; }
 
-  // querySelectorAll is for multiple objects
-  // querySelector is for a single object
-
-// this function chages heading
-function changeText() {
-  myHeading.textContent = "What is up? I am Scrript";
-}
-
-// this function should log the id for each svg to the console
-function logSVG() { // we created logSVG to log them in the console
-  console.log(this.id);
-}
-
-// things a user can do to make things happen on the page
-toggleButton.addEventListener("click", changeText);
-
-// svgImg.addEventListener("click", logSVG);
-// svgImg2.addEventListener("click", logSVG);
-
-allSVGs.forEach(item => item.addEventListener("click",logSVG));
+//allIcons.forEach(item => item.addEventListener("click",changeColor));
 
 //  document.querySelector('h1').textContent = "What is up? I am Scrript"
+
+//  (() => { })();
+
+(() => {
+
+
+let // this is a variable
+	allIcons = document.querySelector(".cls-1"),
+	//allIcons = document.querySelectorAll(".cls-1"),
+	//allIcons = document.getElementsByClassName(".cls-1"),
+
+	black = document.querySelector(".black"),
+	pink = document.querySelector(".pink"),
+	yellow = document.querySelector(".yellow"),
+	green = document.querySelector(".green"),
+	purple = document.querySelector(".purple"),
+	blue = document.querySelector(".blue");
+
+
+
+// when you click on the icon divs it runs change color function
+	black.addEventListener("click", changeColor);
+	pink.addEventListener("click", changeColor);
+	yellow.addEventListener("click", changeColor);
+	green.addEventListener("click", changeColor);
+	purple.addEventListener("click", changeColor);
+	blue.addEventListener("click", changeColor);
+
+// changes color of all icons
+	function changeColor() { allIcons.style.fill = 'red'; };
+
+
 })();
