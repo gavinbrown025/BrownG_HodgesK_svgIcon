@@ -61,11 +61,13 @@ a:visited {
 }
 
 .title {
-	align-items: center;
-	height: 80px;
+	text-align: right;
 	width: 60%;
-	background-color: rgba(34, 234, 224, 0.8);
-	line-height: 80px;
+	/*background-color: rgba(34, 234, 224, 0.8);*/
+}
+
+#title img {
+	width: 100%
 }
 
 .divider {
@@ -84,12 +86,13 @@ a:visited {
 }
 
 .icon {
-	background-color: rgba(34, 234, 224, 0.8);
+	/*background-color: rgba(34, 234, 224, 0.8);*/
 	margin: 0 0 20px 20px; 
 	width: 160px;
 	height: 160px;
 	text-align: center;
 }
+
 
 .colorPicker{
 	display: flex;
@@ -101,10 +104,15 @@ a:visited {
 	height: 120px;
 	width: 15%;
 	text-align: center;
-	align-items: center;
 	line-height: 120px;
 	font-size: 48px;
 	font-weight: bold;
+	border: solid 5px;
+	border-radius: 10px;
+}
+
+.color:hover {
+	cursor: pointer;
 }
 
 
@@ -114,7 +122,7 @@ a:visited {
 
 .pink:hover {
 	background-color: #FF71CE ;
-	transition: .5s;
+	transition: .2s;
 }
 
 
@@ -124,7 +132,7 @@ a:visited {
 
 .blue:hover {
 	background-color: #22EAE0 ;
-	transition: .5s;
+	transition: .2s;
 }
 
 
@@ -134,7 +142,7 @@ a:visited {
 
 .black:hover {
 	background-color: #211830 ;
-	transition: .5s;
+	transition: .2s;
 }
 
 
@@ -144,7 +152,7 @@ a:visited {
 
 .yellow:hover {
 	background-color: #FFFB96 ;
-	transition: .5s;
+	transition: .2s;
 }
 
 
@@ -154,7 +162,7 @@ a:visited {
 
 .green:hover {
 	background-color: #05FFA1 ;
-	transition: .5s;
+	transition: .2s;
 }
 
 
@@ -165,7 +173,7 @@ a:visited {
 
 .purple:hover {
 	background-color: #9D0FFD ;
-	transition: .5s;
+	transition: .2s;
 }
 
 
