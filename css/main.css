@@ -5,20 +5,10 @@ body {
 	font-size: 12px;
 }
 
-p {
-	
-}
+a {text-decoration: none;}
 
-a {
-	text-decoration: none;
-}
-a:visited {
-	color:;
-}
 
-.hidden {
-	display:none;
-}
+.hidden {display:none;}
 
 .background {
 	width: 100%;
@@ -35,13 +25,15 @@ a:visited {
 	width: 92%;
 	max-width: 1400px;
 	margin: 0 auto;
-	padding: 40px;
+	padding-top: 40px;
+	padding-bottom: 20px;
 }
 
+/* =========Header=========*/
 
 .mainHeader {
-	height: 250px;
 	width: 100%;
+	padding-bottom:1.8%;
 	display: flex;
 	flex-direction: row;
 	text-align: center;
@@ -51,24 +43,24 @@ a:visited {
 
 #logo {
 	align-items: center;
-	height: 250px;
 	width: 30%;
 }
 
 #logo img {
-	max-height:250px;
+	max-height:;
 }
 
 .title {
 	text-align: right;
 	width: 60%;
-	/*background-color: rgba(34, 234, 224, 0.8);*/
 }
 
 #title img {
 	width: 100%;
 
 }
+
+/* =========Gallery=========*/
 
 .divider {
 	width: 100%;
@@ -88,14 +80,17 @@ a:visited {
 .icon {
 	background-color: rgba(0, 0, 0, 0.8);
 	margin: 0 0 20px 20px; 
-	width: 160px;
-	height: 160px;
+	width: 200px;
+	height: 200px;
 	text-align: center;
 	border-radius: 10px;
 	display:flex;
 	justify-content: center;
 	align-items: center;
 }
+
+
+/* =========Colours=========*/
 
 
 .colorPicker{
@@ -113,76 +108,41 @@ a:visited {
 	font-weight: bold;
 	border: solid 5px;
 	border-radius: 10px;
+	transition: background .2s ease-in-out;
 }
 
-.color:hover {
-	cursor: pointer;
-}
+.color:hover {cursor: pointer;}
 
 
-.pink {
-	color: #FF71CE;
-}
-
-.pink:hover {
-	background-color: #FF71CE ;
-	transition: .2s;
-}
+.pink {color: #FF71CE;}
+.pink:hover {background-color: #FF71CE ;}
 
 
-.blue{
-	color: #22EAE0;
-}
-
-.blue:hover {
-	background-color: #22EAE0 ;
-	transition: .2s;
-}
+.blue{color: #22EAE0;}
+.blue:hover {background-color: #22EAE0 ;}
 
 
-.black{
-	color: #211830;
-}
-
-.black:hover {
-	background-color: #211830 ;
-	transition: .2s;
-}
+.black{color: #211830;}
+.black:hover {background-color: #211830 ;}
 
 
-.yellow{
-	color: #FFFB96;
-}
-
-.yellow:hover {
-	background-color: #FFFB96 ;
-	transition: .2s;
-}
+.yellow{color: #FFFB96;}
+.yellow:hover {background-color: #FFFB96 ;}
 
 
-.green{
-	color: #05FFA1;
-}
-
-.green:hover {
-	background-color: #05FFA1 ;
-	transition: .2s;
-}
+.green{color: #05FFA1;}
+.green:hover {background-color: #05FFA1 ;}
 
 
-.purple{
-	color: #9D0FFD;
-
-}
-
-.purple:hover {
-	background-color: #9D0FFD ;
-	transition: .2s;
-}
+.purple{color: #9D0FFD;}
+.purple:hover {	background-color: #9D0FFD;}
 
 
 .mainFooter {
-	margin-top: 40px;
+	margin: 35px 10px 8px 0;
+	font-weight: bold;
+	text-align: right;
+	color:#FF71CE;
 }
 
 

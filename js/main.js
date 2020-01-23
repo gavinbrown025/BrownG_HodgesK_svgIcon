@@ -37,27 +37,27 @@ let // this is a variable
 	blue = document.querySelector(".blue");
 
 
+
 // when you click on the icon divs it runs change color function
-	black.addEventListener("click", changeBlack);
-	black.addEventListener("click", changeBgBlack);
+black.addEventListener("click", changeBlack);
+black.addEventListener("click", changeBgBlack);
 
-	pink.addEventListener("click", changePink);
-	pink.addEventListener("click", changeBg);
+pink.addEventListener("click", changePink);
+pink.addEventListener("click", changeBg);
 
-	yellow.addEventListener("click", changeYellow);
-	yellow.addEventListener("click", changeBg);
+yellow.addEventListener("click", changeYellow);
+yellow.addEventListener("click", changeBg);
 
-	green.addEventListener("click", changeGreen);
-	green.addEventListener("click", changeBg);
+green.addEventListener("click", changeGreen);
+green.addEventListener("click", changeBg);
 
-	purple.addEventListener("click", changePurple);
-	purple.addEventListener("click", changeBg);
+purple.addEventListener("click", changePurple);
+purple.addEventListener("click", changeBg);
 
-	blue.addEventListener("click", changeBlue);
-	blue.addEventListener("click", changeBg);
+blue.addEventListener("click", changeBlue);
+blue.addEventListener("click", changeBg);
 
 
-//allIcons.forEach((i) => {i.style.fill = 'red';});
 
 // changes color of all icons
 function changeBlack() { allIcons.forEach((i) => {
