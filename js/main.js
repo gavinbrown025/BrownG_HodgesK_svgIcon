@@ -11,7 +11,7 @@
 	//allIcons.textContent = "What is up? I am Script"; }
 
 //allIcons.forEach(item => item.addEventListener("click",changeColor));
-
+ 
 //  document.querySelector('h1').textContent = "What is up? I am Scrript"
 
 //  (() => { })();

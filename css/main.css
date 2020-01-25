@@ -1,5 +1,5 @@
 
-body {
+body { 
 	width:100%;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 12px;
@@ -29,7 +29,7 @@ a {text-decoration: none;}
 	width: 92%;
 	max-width: 1400px;
 	margin: 0 auto;
-	padding-top: 40px;
+	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
@@ -37,7 +37,6 @@ a {text-decoration: none;}
 
 .mainHeader {
 	width: 100%;
-	padding-bottom:1.8%;
 	display: flex;
 	flex-direction: row;
 	text-align: center;
@@ -50,18 +49,53 @@ a {text-decoration: none;}
 	width: 30%;
 }
 
-#logo img {
-	max-height:;
+.rightHeader {
+	width: 60%;
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	text-align: right;
+	justify-content:space-between;
+
 }
 
 .title {
 	text-align: right;
-	width: 60%;
+	width: 100%;
+	margin-top: 20px;
 }
 
 #title img {
 	width: 100%;
+}
 
+.mainNav {
+	display: flex;
+	flex-direction:row;
+	justify-content: flex-end;
+}
+
+.mainNav .button {
+	margin-left: 10px;
+	background-color: #FF7BE3;
+	color: white; 
+	padding: 20px;
+}
+
+.button {
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	border-radius: 10px;
+	transition: background .2s ease-in-out;
+	transition: color .2s ease-in-out;
+}
+
+.button:hover {
+	background-color: #05FFA1 ;
+	cursor: pointer;
+	color:#211830;
+	box-shadow: 3px 3px 3px rgba(0,0,0, .5);
 }
 
 /* =========Gallery=========*/
@@ -69,8 +103,17 @@ a {text-decoration: none;}
 .divider {
 	width: 100%;
 	height: 34px;
-	background-color: #E60EFE; 
+	background-color: #22EAE0; 
 	opacity: 80%;
+}
+
+.info {
+	font-family: 'Tahoma', Arial, sans-serif;
+	font-weight: bold;
+	font-size: 36px;
+	color: white;
+	text-shadow: 3px 3px 3px rgba(0,0,0, .5);
+	margin-bottom: 20px;
 }
 
 .gallery {
@@ -104,13 +147,14 @@ a {text-decoration: none;}
 }
 
 .color{
-	height: 120px;
+	height: 100px;
 	width: 15%;
 	text-align: center;
-	line-height: 120px;
-	font-size: 48px;
-	font-weight: bold;
+	line-height: 100px;
 	border: solid 5px;
+	font-size: 40px;
+	font-weight: bold;
+	text-shadow: 3px 3px 3px rgba(0,0,0, .5);
 	border-radius: 10px;
 	transition: background .2s ease-in-out;
 }
@@ -140,6 +184,24 @@ a {text-decoration: none;}
 
 .purple{color: #9D0FFD;}
 .purple:hover {	background-color: #9D0FFD;}
+
+
+.wrapperDL {
+	width: 92%;
+	max-width: 1400px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.download{
+	background-color: #FF7BE3;
+	color: white; 
+	width: 400px;
+	height: 100px;
+	line-height: 100px;
+}
 
 
 .mainFooter {
