@@ -5,6 +5,10 @@ body {
 	font-size: 12px;
 }
 
+svg {
+	width: 100%;
+}
+
 a {text-decoration: none;}
 
 
